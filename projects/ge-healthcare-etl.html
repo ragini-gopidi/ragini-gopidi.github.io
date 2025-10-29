@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Healthcare ETL — Ragini Gopidi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{--bg:#0b0f19;--fg:#fff;--muted:#a3a3a3;--accent:#00bcd4;--card:#101626}
+    body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    .wrap{max-width:880px;margin:0 auto;padding:24px}
+    .section{background:var(--card);border:1px solid #17213a;border-radius:16px;padding:24px;margin:24px 0}
+    h1{margin:6px 0 12px}
+    p{color:#d1d5db}
+    ul{color:#d1d5db}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="/" aria-label="Home"><strong>← Back</strong></a>
+    </header>
+    <section class="section">
+      <h1>Healthcare ETL — Batch + Quality</h1>
+      <p><strong>Context:</strong> Built end-to-end pipelines to integrate clinical/operational data for analytics.</p>
+      <p><strong>Design:</strong> Ingest → land in Azure Data Lake → transform in Databricks (PySpark) → model in Synapse/dbt → serve to BI.</p>
+      <ul>
+        <li>Orchestrated with Azure Data Factory and Airflow; parameterized, idempotent runs.</li>
+        <li>Quality gates (schema, PK uniqueness, null thresholds) before loads; quarantine on failure.</li>
+        <li>Optimized with partitioning, file sizing, and incremental strategies for large tables.</li>
+      </ul>
+      <p><strong>Tech:</strong> Azure ADF, Databricks/PySpark, Synapse, dbt, Data Lake, Power BI.</p>
+      <p><strong>Role:</strong> Data Engineer — pipeline design, modeling, DQ, and production support.</p>
+    </section>
+  </div>
+</body>
+</html>
